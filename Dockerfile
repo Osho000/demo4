@@ -1,4 +1,4 @@
-FROM maven:3.9.8-eclipse-temurin-22 AS builder
+FROM maven:3.9.8-eclipse-temurin-17 AS builder
 ENV APP_DIR=/opt/app
 WORKDIR ${APP_DIR}
 COPY pom.xml .
